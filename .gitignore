@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+*.pyc
+.env
+
+# Test artifacts
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Chroma local data (if persisted to disk)
+chroma_data/
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
